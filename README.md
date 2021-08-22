@@ -35,3 +35,10 @@
 3. Number()
 4. exemple.toString() and String(exemple)
 5. Template Strings
+6. exemple.length
+7. document.write()
+8. toUpperCase()
+9. toLowerCase()
+10. numberExemple.toFixed()
+11. .replace('from','to')
+12. numberExpemple.toLocaleString('pt-Br', {style: 'currency', currency:'BRL'})
