@@ -17,11 +17,11 @@ ________________________________________________________________________________
 
 2. Tipos primitivos: 
 
-   - ​	number
+   -    string
 
-   - ​    string
+   -    number 
 
-   - ​    boolean
+   -    boolean
 
 3. Comando **typeof**
 
