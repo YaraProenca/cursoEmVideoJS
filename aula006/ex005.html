@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 006</title>
+
+  <style>
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: rgb(255, 177, 149);
+    }
+
+    body,
+    html {
+
+      width: 100%;
+      height: 100%;
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-align: center;
+      padding: 20px;
+      color: cadetblue;
+      font-weight: 800;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2,
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      text-align: center;
+      padding: 10px 10px;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1> String Format</h1>
+
+  <h2>String.prototype.toUpperCase()</h2>
+
+  <p>
+    The toUpperCase() method returns the calling string value converted to uppercase (the value will be converted to a string if it isn't one).
+  </p>
+
+  <h2>String.prototype.toLowerCase()</h2>
+
+  <p>
+    The toLowerCase() method returns the calling string value converted to lower case.
+  </p>
+
+  <h2>String length</h2>
+
+  <p>
+    The length property of a String object contains the length of the string, in UTF-16 code units. length is a read-only data property of string instances.
+  </p>
+
+  <h3>Node Exemple</h3>
+  <div>
+    <img src="../aula006/img/exemple.png" alt="node code exemple">
+  </div>
+  <script>
+    var name = prompt('What\'s ur name?')
+    document.write(`<h3>Hey, ${name}! Your name have ${name.length} letters. </h3>`)
+  </script>
+
+</body>
+
+</html>

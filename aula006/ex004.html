@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 006 JS</title>
+
+  <style>
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 10px;
+    }
+
+    body {
+      background-color: rgb(238, 209, 176);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    h2 {
+      color: brown;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="color: aquamarine; font-size: 40px;"> Hey There! </h1>
+
+  <div>
+    <h2>parseInt ()</h2>
+
+    <p>
+      A parseInt()função analisa um argumento de string e retorna um inteiro do especificadoraiz (a base em sistemas numéricos matemáticos).
+    </p>
+
+    <h2>parseFloat ()</h2>
+
+    <p>
+      A parseFloat()função analisa um argumento (convertendo-o em uma string primeiro, se necessário) e retorna um número de ponto flutuante.
+    </p>
+
+    <h2>Object.prototype.toString ()</h2>
+
+    <p>
+      O toString()método retorna uma string que representa o objeto.
+    </p>
+
+    <h2>Number</h2>
+    <p>
+      Number é um objeto de invólucro primitivo usado para representar e manipular números como 37ou -9.25.
+      O Numberconstrutor contém constantes e métodos para trabalhar com números. Valores de outros tipos podem ser convertidos em números usando a Number()função.
+    </p>
+
+    <h2>Template literals (Template strings)</h2>
+
+    <p>
+      Template literals are literals delimited with backticks (`), allowing embedded expressions called substitutions.
+
+      Untagged template literals result in strings, which makes them useful for string interpolation (and multiline strings, since unescaped newlines are allowed).
+      Tagged template literals call a function (the tag function) with an array of any text segments from the literal followed by arguments with the values of any substitutions, which is useful for DSLs.
+      Template literals are sometimes informally called template strings, but they aren't string literals and can't be used everywhere a string literal can be used. Also, a tagged template literal may not result in a string; it's up to the tag function what it creates (if anything).
+    </p>
+  </div>
+
+  <script>
+    var number1 = Number(prompt('Set a number')) // prompt sempre retorna uma string
+    var number2 = Number(prompt('Set another number')) // string
+    var result = number1 + number2
+    window.alert('The result is: ' + result) // concatenação
+    // (number + number) para adição
+    // (sting + string) para concatenação
+    // se quiser que o prompt seja convertido para um number, deve utilizar alguns comandos 
+
+
+
+  </script>
+</body>
+
+</html>
