@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas 009 || 010</title>
+    <style>
+         *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(75, 141, 240);
+            color: bisque;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>DOM - Document Objetc Model </h1>
+
+    <h2>Iniciando estudos com DOM</h2>
+
+    <p>Aqui vai o resultado</p>
+
+    <p> Aprendendo a usar <strong>DOM</strong> em JS </p>
+
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        var d = document.querySelector('div#msg')
+        var p1 = document.getElementsByTagName('p')[0]
+        // document.write('Está escrito assim: ' + p1.innerText + '<br>')
+        // window.document.write(window.document.URL)
+        // p1.style.color = 'red'
+        // d.style.backgroundColor = 'pink'
+        //d.innerText = 'I\'m waiting...' // com var criada
+        //document.getElementById('msg').innerText = 'I got it!'
+
+        d.style.color = ' blue'
+    </script>
+</body>
+
+</html>

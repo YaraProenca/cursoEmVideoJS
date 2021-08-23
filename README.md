@@ -45,7 +45,7 @@
 
 ---
 
-**Aula 007 e 008 Curso em Vídeo**
+**Aulas 007 e 008 Curso em Vídeo**
 
 **Operdores JS**
 
@@ -54,3 +54,19 @@
  - relacionais
  - lógicos
  - ternário
+
+ ---
+
+ **Aulas 009 e 010**
+
+ - DOM
+ - ÁRVORE DOM
+ - Manipulando DOM
+
+ **Seletores DOM**
+
+ - Tag - getElementByTagName()
+ - ID - getElementById()
+ - Name - getElementsByName()
+ - Class - getElementsByClassName()
+ - Selector - querySelector( ) AND querySelectorAll()
