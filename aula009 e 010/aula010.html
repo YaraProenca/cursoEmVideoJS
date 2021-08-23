@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 010 || Eventos DOM </title>
+
+    <style>
+        #div1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(62, 194, 255);
+            color: blanchedalmond;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- onclick="click()"[**não funcionaou**] onmouseenter="enter()" onmouseout="out()" -->
+    <div id="div1">   
+        Interaja....
+    </div>
+
+    <script>
+         var divId = document.getElementById('div1')
+         divId.addEventListener('click', click)
+         divId.addEventListener('mouseenter', enter)
+         divId.addEventListener('mouseout', out)
+
+        function click(){
+           
+            divId.innerText = 'clicked!'
+            divId.style.backgroundColor = 'yellow'
+            divId.style.color = 'black'
+           
+        }
+
+        function enter(){
+
+            divId.innerText = 'Enter'
+            divId.style.backgroundColor = 'black'
+            divId.style.color = 'white'
+
+        }
+
+        function out(){
+
+            divId.innerText = 'out'            
+            divId.style.backgroundColor = 'rgb(62, 194, 255)'
+            divId.style.color = 'white'
+        }
+    </script>
+    
+</body>
+</html>
