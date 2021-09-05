@@ -1,4 +1,4 @@
-# cursoEmVideoJS
+# Curso em Vídeo
 
 # **Aulas do Curso em Vídeo JS**
 
@@ -18,11 +18,11 @@
 
 2. Tipos primitivos:
 
-   - ​ number
+   -  number
 
-   - ​ string
+   -  string
 
-   - ​ boolean
+   -  boolean
 
 3. Comando **typeof**
 
@@ -55,7 +55,7 @@
  - lógicos
  - ternário
 
- ---
+---
 
  **Aulas 009 e 010**
 
