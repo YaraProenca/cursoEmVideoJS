@@ -1,0 +1,42 @@
+.destaques{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 8%);
+}
+
+.destaques__principal{
+    background-image: url("../img/fortnite.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4; /*colocar uma a ais, pq o grid templet não preence o end, para ele preencer 3 colunas necessita colocar 4*/
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.destaques__secundario:nth-child(2){/*significa que este é o segundo filho da classe principal*/
+    /* Fora reduzida de escrever o código */
+    background: url(../img/pubg.jpg) center / cover  no-repeat;
+    grid-column: 4/4;
+    grid-row: 1/1;
+}
+
+.destaques__secundario:nth-child(3){
+    background: url(../img/slack.png) center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 2/2;
+}
+
+.destaques__secundario:nth-child(4){
+    background: url(../img/whatsapp.png) center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+
+.destaques__secundario:nth-child(5){
+    background: url(../img/cs-go.jpg) center / cover no-repeat;
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
