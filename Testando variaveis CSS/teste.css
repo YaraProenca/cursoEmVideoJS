@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+:root{
+  --bgColor1: #0F2027;  /* fallback for old browsers */
+  --bgColor2: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  --bgColor3: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+  color: aqua;
+}
+
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.div1{
+  background: var(--bgColor1);
+}
+
+.div2{
+  background: var(--bgColor2);
+}
+
+.div3{
+  background-color: var(--bgColor3);
+}
